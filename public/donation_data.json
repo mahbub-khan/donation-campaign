@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1",
+    "picture": "https://i.ibb.co/kyPQMLh/health-2.jpg",
+    "title": "Medical Supplies for Hospitals",
+    "category": "Health",
+    "category_bg": "rgba(0, 82, 255, 0.20)",
+    "card_bg": "rgba(0, 82, 255, 0.15)",
+    "text_button_color": "#0052FF",
+    "description": "Help us provide essential medical supplies for hospitals and healthcare workers. Your contribution will support the frontline heroes battling the ongoing health crisis. Together, let's ensure they have the resources they need to save lives and keep our communities safe.",
+    "price": "$50.00"
+  },
+  {
+    "id": "2",
+    "picture": "https://i.ibb.co/Z8dSnY0/Education-2.jpg",
+    "title": "Education Scholarships",
+    "category": "Education",
+    "category_bg": "rgba(255, 68, 74, 0.20)",
+    "card_bg": "rgba(255, 68, 74, 0.15)",
+    "text_button_color": "#FF444A",
+    "description": "Empower the next generation by contributing to scholarships for students in need. Your donation will make education accessible to deserving individuals, opening doors to a brighter future. Join us in building a foundation of knowledge and opportunities for aspiring learners.",
+    "price": "$25.00"
+  },
+  {
+    "id": "3",
+    "picture": "https://i.ibb.co/KrpCW2n/clothing-2.jpg",
+    "title": "Winter Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "rgba(121, 194, 63, 0.20)",
+    "card_bg": "rgba(121, 194, 63, 0.15)",
+    "text_button_color": "#79C23F",
+    "description": "Support our Winter Clothing Drive to keep those in need warm during the upcoming season. Your donation will provide essential winter clothing items, such as coats, gloves, and scarves, to individuals facing the cold without adequate protection. Join us in spreading warmth and compassion.",
+    "price": "$20.00"
+  },
+  {
+    "id": "4",
+    "picture": "https://i.ibb.co/9t7hbYy/Food-2.jpg",
+    "title": "Hunger Relief Program",
+    "category": "Food",
+    "category_bg": "rgba(248, 113, 71, 0.20)",
+    "card_bg": "rgba(248, 113, 71, 0.15)",
+    "text_button_color": "#F87147",
+    "description": "Contribute to our Hunger Relief Program and make a difference in the fight against food insecurity. Your donation will help us provide nutritious meals to those facing hunger, bringing hope and sustenance to vulnerable communities. Together, let's create a world where no one goes to bed hungry.",
+    "price": "$15.00"
+  },
+  {
+    "id": "5",
+    "picture": "https://i.ibb.co/X77FWV5/health-3.jpg",
+    "title": "Medical Research Funding",
+    "category": "Health",
+    "category_bg": "rgba(0, 82, 255, 0.20)",
+    "card_bg": "rgba(0, 82, 255, 0.15)",
+    "text_button_color": "#0052FF",
+    "description": "Support groundbreaking medical research by contributing to our funding initiative. Your donation will drive advancements in healthcare, leading to new treatments and discoveries. Join us in the quest for a healthier future, where innovative research transforms lives and conquers diseases.",
+    "price": "$30.00"
+  },
+  {
+    "id": "6",
+    "picture": "https://i.ibb.co/tqbHhcd/Education-4.jpg",
+    "title": "Digital Learning Resources",
+    "category": "Education",
+    "category_bg": "rgba(255, 68, 74, 0.20)",
+    "card_bg": "rgba(255, 68, 74, 0.15)",
+    "text_button_color": "#FF444A",
+    "description": "Bridge the digital divide in education by supporting our initiative for digital learning resources. Your donation will provide students with essential tools and access to online educational materials, ensuring equitable learning opportunities for all. Join us in empowering students for success.",
+    "price": "$40.00"
+  },
+  {
+    "id": "7",
+    "picture": "https://i.ibb.co/bWC3TBC/clothing-3.jpg",
+    "title": "Emergency Shelter Supplies",
+    "category": "Clothing",
+    "category_bg": "rgba(121, 194, 63, 0.20)",
+    "card_bg": "rgba(121, 194, 63, 0.15)",
+    "text_button_color": "#79C23F",
+    "description": "Contribute to our Emergency Shelter Supplies initiative to help individuals facing homelessness. Your donation will provide essential clothing items, blankets, and other necessities to those seeking shelter. Join us in providing comfort and support during challenging times.",
+    "price": "$35.00"
+  },
+  {
+    "id": "8",
+    "picture": "https://i.ibb.co/KW3Bm4D/food-3.jpg",
+    "title": "School Lunch Program",
+    "category": "Food",
+    "category_bg": "rgba(248, 113, 71, 0.20)",
+    "card_bg": "rgba(248, 113, 71, 0.15)",
+    "text_button_color": "#F87147",
+    "description": "Support our School Lunch Program to ensure every child has access to a nutritious meal. Your donation will help us provide daily lunches to students, promoting healthy development and improving overall well-being. Join us in nourishing young minds and bodies.",
+    "price": "$10.00"
+  },
+  {
+    "id": "9",
+    "picture": "https://i.ibb.co/y5CWMTX/health-4.jpg",
+    "title": "Medical Equipment for Rural Clinics",
+    "category": "Health",
+    "category_bg": "rgba(0, 82, 255, 0.20)",
+    "card_bg": "rgba(0, 82, 255, 0.15)",
+    "text_button_color": "#0052FF",
+    "description": "Support healthcare in rural areas by donating essential medical equipment. Your contribution will help establish and maintain clinics, ensuring access to quality healthcare for underserved communities. Join us in making a lasting impact on health outcomes.",
+    "price": "$75.00"
+  },
+  {
+    "id": "10",
+    "picture": "https://i.ibb.co/6gQM0bc/Education-3.jpg",
+    "title": "Community Library Project",
+    "category": "Education",
+    "category_bg": "rgba(255, 68, 74, 0.20)",
+    "card_bg": "rgba(255, 68, 74, 0.15)",
+    "text_button_color": "#FF444A",
+    "description": "Promote literacy and learning by supporting our Community Library Project. Your donation will contribute to the creation of community libraries, providing resources for education and empowerment. Join us in fostering a love for reading and knowledge.",
+    "price": "$50.00"
+  },
+  {
+    "id": "11",
+    "picture": "https://i.ibb.co/rvVQrZk/food-4.jpg",
+    "title": "School Uniforms for Underprivileged Children",
+    "category": "Clothing",
+    "category_bg": "rgba(121, 194, 63, 0.20)",
+    "card_bg": "rgba(121, 194, 63, 0.15)",
+    "text_button_color": "#79C23F",
+    "description": "Give the gift of dignity to underprivileged children by donating school uniforms. Your contribution will help students feel confident and ready to learn. Join us in breaking down barriers to education through the provision of essential clothing.",
+    "price": "$30.00"
+  },
+  {
+    "id": "12",
+    "picture": "https://i.ibb.co/kJdsPHF/Food.png",
+    "title": "Community Garden Project",
+    "category": "Food",
+    "category_bg": "rgba(248, 113, 71, 0.20)",
+    "card_bg": "rgba(248, 113, 71, 0.15)",
+    "text_button_color": "#F87147",
+    "description": "Support sustainable food sources by contributing to our Community Garden Project. Your donation will help establish community gardens, providing fresh produce to those in need. Join us in fostering food security and environmental sustainability.",
+    "price": "$20.00"
+  }
+]
