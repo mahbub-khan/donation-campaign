@@ -9,8 +9,6 @@ const DonationsCard = ({ donation }) => {
     category_bg,
     card_bg,
     text_button_color,
-    description,
-    price,
   } = donation || {};
 
   const cardBackground = {

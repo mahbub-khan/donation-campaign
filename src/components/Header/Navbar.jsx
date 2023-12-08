@@ -64,7 +64,9 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="w-[150px] md:w-auto">
-            <img src="https://i.ibb.co/1nscnSV/Logo.png" alt="logo" />
+            <NavLink to="/">
+              <img src="https://i.ibb.co/1nscnSV/Logo.png" alt="logo" />
+            </NavLink>
           </div>
         </div>
 

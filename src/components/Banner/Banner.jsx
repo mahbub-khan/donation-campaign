@@ -1,4 +1,18 @@
+import { useContext, useState } from "react";
+import { FilterContext } from "../../pages/Home/Home";
+
 const Banner = () => {
+  const [catFilterSearch, setCatFilterSearch] = useContext(FilterContext);
+  const [inputValue, setInputValue] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setCatFilterSearch(inputValue);
+  };
+  const handleInputChange = (e) => {
+    setInputValue(e.target.value);
+  };
+
   return (
     <div className="relative">
       <div
@@ -14,16 +28,19 @@ const Banner = () => {
               I Grow By Helping People In Need
             </h1>
             <div className="px-5 sm:px-10">
-              <input
-                type="text"
-                placeholder="Type here"
-                className="input input-bordered w-full max-w-xs"
-              />
-              <input
-                type="submit"
-                value="Search"
-                className="btn bg-[#FF444A] text-white"
-              />
+              <form onSubmit={handleSubmit}>
+                <input
+                  onChange={handleInputChange}
+                  type="text"
+                  placeholder="Type Category Name here"
+                  className="input input-bordered w-full max-w-xs"
+                />
+                <input
+                  type="submit"
+                  value="Search"
+                  className="btn bg-[#FF444A] text-white"
+                />
+              </form>
             </div>
           </div>
         </div>
