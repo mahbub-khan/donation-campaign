@@ -20,6 +20,10 @@ const DonationsCard = ({ donation }) => {
     color: text_button_color,
   };
 
+  const titleTextColor = {
+    color: text_button_color,
+  };
+
   return (
     <Link to={`/donation/${id}`} className="flex flex-col">
       <div className="flex flex-col flex-grow">
@@ -37,7 +41,12 @@ const DonationsCard = ({ donation }) => {
             >
               {category}
             </h2>
-            <h1 className="pt-3 text-xl font-semibold flex-grow">{title}</h1>
+            <h1
+              className="pt-3 text-xl font-semibold flex-grow"
+              style={titleTextColor}
+            >
+              {title}
+            </h1>
           </div>
         </div>
       </div>

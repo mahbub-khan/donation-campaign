@@ -17,21 +17,14 @@ const Donations = ({ donations }) => {
     setSearchedData(filteredData.length > 0 ? filteredData : null);
   }, [catFilterSearch, donations]);
 
-  //const displayData = searchedData || donations;
+  const displayData = searchedData || donations;
 
   return (
     <div className="max-w-7xl mx-auto px-8">
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 my-20">
-        {!searchedData ? (
-          <NoDataFound></NoDataFound>
-        ) : (
-          donations?.map((donation) => (
-            <DonationsCard
-              key={donation.id}
-              donation={donation}
-            ></DonationsCard>
-          ))
-        )}
+        {displayData?.map((donation) => (
+          <DonationsCard key={donation.id} donation={donation}></DonationsCard>
+        ))}
       </div>
     </div>
   );
