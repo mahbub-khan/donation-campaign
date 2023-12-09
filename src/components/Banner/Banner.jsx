@@ -16,13 +16,13 @@ const Banner = () => {
   return (
     <div className="relative">
       <div
-        className="h-[70vh] bg-cover bg-no-repeat bg-center"
+        className="h-[50vh] md:h-[70vh] bg-cover bg-no-repeat bg-center"
         style={{
           backgroundImage: "url('https://i.ibb.co/5n5vT0M/banner.jpg')",
         }}
       ></div>
-      <div className="h-[70vh] bg-white bg-opacity-80 absolute inset-0 w-full">
-        <div className="h-[70vh] flex justify-center items-center">
+      <div className="h-[50vh] md:h-[70vh] bg-white bg-opacity-80 absolute inset-0 w-full">
+        <div className="h-[50vh] md:h-[70vh] flex justify-center items-center">
           <div className="text-center">
             <h1 className="text-3xl sm:text-5xl font-bold mb-5 sm:mb-10 px-5 sm:px-10">
               I Grow By Helping People In Need
@@ -33,12 +33,12 @@ const Banner = () => {
                   onChange={handleInputChange}
                   type="text"
                   placeholder="Type Category Name here"
-                  className="input input-bordered w-full max-w-xs"
+                  className="input input-bordered w-full max-w-[250px] sm:max-w-xs rounded-none rounded-l-xl focus:outline-none"
                 />
                 <input
                   type="submit"
                   value="Search"
-                  className="btn bg-[#FF444A] text-white"
+                  className="btn bg-[#FF444A] text-white rounded-none rounded-r-xl -ml-2 -mt-2 border-t-[3px] border-[#FF444A]"
                 />
               </form>
             </div>
