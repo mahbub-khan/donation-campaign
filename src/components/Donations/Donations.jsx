@@ -4,7 +4,7 @@ import { FilterContext } from "../../pages/Home/Home";
 import NoDataFound from "./NoDataFound";
 
 const Donations = ({ donations }) => {
-  const [catFilterSearch, setCatFilterSearch] = useContext(FilterContext);
+  const [catFilterSearch] = useContext(FilterContext);
   const [searchedData, setSearchedData] = useState(null);
 
   //const [noDataFound, setNoDataFound] = useState('');
@@ -17,14 +17,28 @@ const Donations = ({ donations }) => {
     setSearchedData(filteredData.length > 0 ? filteredData : null);
   }, [catFilterSearch, donations]);
 
-  const displayData = searchedData || donations;
+  //const displayData = searchedData || donations;
 
   return (
     <div className="max-w-7xl mx-auto px-8">
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 my-20">
-        {displayData?.map((donation) => (
-          <DonationsCard key={donation.id} donation={donation}></DonationsCard>
-        ))}
+        {!catFilterSearch && !searchedData ? (
+          donations?.map((donation) => (
+            <DonationsCard
+              key={donation.id}
+              donation={donation}
+            ></DonationsCard>
+          ))
+        ) : catFilterSearch && !searchedData ? (
+          <NoDataFound catFilterSearch={catFilterSearch}></NoDataFound>
+        ) : (
+          searchedData.map((donation) => (
+            <DonationsCard
+              key={donation.id}
+              donation={donation}
+            ></DonationsCard>
+          ))
+        )}
       </div>
     </div>
   );
